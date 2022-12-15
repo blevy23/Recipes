@@ -1,0 +1,23 @@
+{
+  "name": "node-basics-demo",
+  "version": "1.0.0",
+  "description": "## `npm init`",
+  "main": "ejs_demo.js",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "plotly.js-dist": "^2.16.3"
+  },
+  "scripts": {
+    "prebuild": "node reset.js",
+    "build": "cd data && node generateJSON.js && cd .. && cd src && node siteGenerator.js",
+    "postbuild": "open http://localhost:3000 && node server.js",
+    "publish": "git add . && git commit -m 'PUBLISH' && git push https://github.com/matthewachin/matthewachin.github.io.git main",
+    "postpublish": "open https://blevy23.github.io/public/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
