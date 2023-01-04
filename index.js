@@ -26,3 +26,8 @@ const port = 3000;
 app.listen(port, function() {
   console.log('Server started at http://localhost:'+port+'.')
 });
+
+/*
+My dearest Benjamin, 
+It has been well over forty-eight hours since we last interfaced and I miss you intensely. I find myself on this cool December evening yearning to tell you about these last few days, and in particular, this morning. At around seven, ante-meridiem, and not long after the rooster crows, I awoke from my rather brisk slumber with a profound sense of hope. Hankering, even, as some might chime, to begin crafting this project on which we settled. Without delay, I encountered a can of worms, a predicament. For ages, I have been 
+*/
